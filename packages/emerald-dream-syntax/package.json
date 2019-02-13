@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/emerald-dream-syntax/versions/0.2.3/tarball",
+  "_id": "emerald-dream-syntax@0.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-c6SwaUzj+iM6w0QDksomo2NjkVckwjl1Dgipuy5IznzJHPpa1gvKb35FAJdIdWfbc2I+hlLm0n3XNy2BiEeDUw==",
+  "_location": "/emerald-dream-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/emerald-dream-syntax/versions/0.2.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/emerald-dream-syntax/versions/0.2.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/emerald-dream-syntax/versions/0.2.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/emerald-dream-syntax/versions/0.2.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/emerald-dream-syntax/versions/0.2.3/tarball",
+  "_shasum": "703454707f586eaf96f821bef3a0871fe131ac67",
+  "_spec": "https://www.atom.io/api/packages/emerald-dream-syntax/versions/0.2.3/tarball",
+  "_where": "C:\\Users\\pipe\\AppData\\Local\\Temp\\apm-install-dir-1181114-18332-1epkgup.orrl",
+  "bugs": {
+    "url": "https://github.com/davidcai/emerald-dream-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Emerald dream syntax dark theme. Works best with Atom Material UI.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/davidcai/emerald-dream-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "material"
+  ],
+  "license": "MIT",
+  "name": "emerald-dream-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcai/emerald-dream-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.3"
+}

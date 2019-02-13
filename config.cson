@@ -1,0 +1,28 @@
+"*":
+  core:
+    disabledPackages: [
+      "whitespace"
+      "color-picker"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    uriHandlerRegistration: "never"
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "240f00ec-9404-4288-a626-ec78221dcb6a"
+  "file-icons":
+    onChanges: true
+  "sync-settings":
+    _lastBackupHash: "b9b3c7f83b3880f92ed2e08275defd9159f049d3"
+    gistId: "3ed6f745084fc1dd9d2855c25482a17e"
+    personalAccessToken: "6b8b85fecfaab8625cacfb29a0da797c7847baf0"
+    quietUpdateCheck: true
+    removeObsoletePackages: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

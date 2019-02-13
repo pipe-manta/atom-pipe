@@ -1,0 +1,55 @@
+name: 'bova'
+recipe: drupal7
+config:
+  webroot: .
+  php: '7.0'
+  via: nginx
+  database: mariadb:10.1
+services:
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+  node-cli:
+    type: node:6.10
+    globals:
+      gulp-cli: "latest"
+      
+proxy:
+  appserver:
+    - lstm-piivec.lndo.site
+    
+tooling:
+  phpunit:
+    service: appserver
+    description: "Run PHP Unit tests: lando phpunit"
+  npm:
+    service: node-cli
+  node:
+    service: node-cli
+  gulp:
+    service: node-cli
+  update:
+    service: appserver
+    description: "Builds local dependencies, compiles SASS"
+    cmd: echo Updating your local dependencies…
+  super-theme-install:
+    service: appserver
+    description: "Install node modules for remora, remadmin and current site's themes and compiles SASS"
+    cmd: echo Installing node modules and compiling SASS…
+  theme-install:
+    service: appserver
+    description: "Install node modules for current site's theme and compiles SASS"
+    cmd: echo Installing node modules and compiling SASS…
+  git:
+    service: appserver
+
+events:
+  post-super-theme-install:
+    - node-cli: cd $LANDO_MOUNT/sites/all/themes/remora && npm install
+    - node-cli: cd $LANDO_MOUNT/sites/all/themes/remadmin && npm install
+    - node-cli: cd $LANDO_MOUNT/sites/$LANDO_APP_NAME/themes/$LANDO_APP_NAME && npm install && gulp
+  post-theme-install:
+    - node-cli: cd $LANDO_MOUNT/sites/$LANDO_APP_NAME/themes/$LANDO_APP_NAME && npm install && gulp
+  post-update:
+    - node-cli: cd $LANDO_MOUNT/sites/$LANDO_APP_NAME/themes/$LANDO_APP_NAME && npm install && gulp

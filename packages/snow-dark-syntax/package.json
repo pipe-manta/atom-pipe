@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/snow-dark-syntax/versions/0.1.1/tarball",
+  "_id": "snow-dark-syntax@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-8cOumw9xCuSZw1I8i8yi4QFIQgrR4QNP4WuB1TyFCqSqkQF3OBl9bsbLagcDk1XcXFCOBxUQlhkvIpHJDpuBwQ==",
+  "_location": "/snow-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/snow-dark-syntax/versions/0.1.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/snow-dark-syntax/versions/0.1.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/snow-dark-syntax/versions/0.1.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/snow-dark-syntax/versions/0.1.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/snow-dark-syntax/versions/0.1.1/tarball",
+  "_shasum": "c0b77f41c88681007b23c32843a591a948336c28",
+  "_spec": "https://www.atom.io/api/packages/snow-dark-syntax/versions/0.1.1/tarball",
+  "_where": "C:\\Users\\pipe\\AppData\\Local\\Temp\\apm-install-dir-11892-18924-orgdh2.12acs",
+  "bugs": {
+    "url": "https://github.com/SnowJambi/snow-dark-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A dark syntax that's easy on the eyes.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/SnowJambi/snow-dark-syntax#readme",
+  "keywords": [
+    "snow",
+    "dark",
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "snow-dark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnowJambi/snow-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.1"
+}
