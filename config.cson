@@ -11,6 +11,7 @@
     ]
     uriHandlerRegistration: "never"
   editor:
+    fontSize: 13
     showIndentGuide: true
   "exception-reporting":
     userId: "240f00ec-9404-4288-a626-ec78221dcb6a"
